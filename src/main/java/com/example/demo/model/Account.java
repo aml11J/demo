@@ -14,16 +14,6 @@ public class Account {
     private String userid;
     private String name;
     private double balance;
-//    private String currency;
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getUserid() {
         return userid;
@@ -49,14 +39,6 @@ public class Account {
         this.balance = balance;
     }
 
-//    public String getCurrency() {
-//        return currency;
-//    }
-//
-//    public void setCurrency(String currency) {
-//        this.currency = currency;
-//    }
-
     @Override
     public String toString() {
         return "Account{" +
@@ -64,7 +46,6 @@ public class Account {
                 ", userid='" + userid + '\'' +
                 ", name='" + name + '\'' +
                 ", balance=" + balance +
-//                ", currency='" + currency + '\'' +
                 '}';
     }
 }
